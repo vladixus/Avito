@@ -11,7 +11,7 @@ RUN go mod download
 
 # Copy the Go source code into the container
 COPY iternal/cmd/ ./cmd
-COPY iternal/database/ ./database
+
 COPY ./ ./
 
 # Build the Go application
